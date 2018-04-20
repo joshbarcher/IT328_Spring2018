@@ -1,0 +1,12 @@
+#footer-links {
+    text-align: center;
+}
+
+#footer-links a {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+ul.list-group {
+    margin-top: 10px;
+}
