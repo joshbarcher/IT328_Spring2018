@@ -4,11 +4,11 @@
         $records = getMessages();
 
         //load the view page
-        require 'pages/viewMessages.php';
+        require 'views/viewMessages.php';
     }
 
     function showInsertForm() { //GET REQUEST for insertMessages.php
-        require 'pages/insertMessage.php';
+        require 'views/insertMessage.php';
     }
 
     function handleInsertForm() { //POST REQUEST for insertMessages.php

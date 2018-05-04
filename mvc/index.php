@@ -1,5 +1,5 @@
 <?php
-    //load shared resources among pages
+    //load shared resources among views
     require 'database/db.php';
     require 'controllers/messageController.php';
 
@@ -22,7 +22,7 @@
         }
     }
 
-    //pass control to a controller function
+    //pass control to a controllers function
     switch ($page) {
         case 'view':
             showView();
